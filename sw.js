@@ -21,7 +21,7 @@
  *
  * VERSION is a hash of all shipped files except this one.
  */
-const VERSION = 'b3b19c874e5275023fc0a667eb15f7958c0db37a';
+const VERSION = 'e7388a71877a6c1c7175d1b980973bc5205a321f';
 const PREFIX = 'builder-study-';
 const CACHE = PREFIX + VERSION;
 const FILES = [
