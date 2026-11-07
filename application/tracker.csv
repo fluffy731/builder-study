@@ -1,0 +1,36 @@
+ID,Phase,Task,Owner,Due,Status,Depends on,Evidence path,Notes
+T01,0 Eligibility,Download and save current BPC DB-U class page and application form,Me,,Not started,,07_Application-Submission,
+T02,0 Eligibility,Record qualification experience project-count requirements,Me,,Not started,T01,00_Admin-Tracker,See 06-verify-with-bpc.md
+T03,0 Eligibility,Eligibility self-assessment (Met/Gap/Unsure),Me,,Not started,T02,00_Admin-Tracker,
+T04,0 Eligibility,Confirm exam format and fees,Me,,Not started,T01,00_Admin-Tracker,
+T05,1 Set-up,Create OneDrive folder tree,Me,,Not started,,,Use script or unzip template
+T06,1 Set-up,Enable version history/vault for sensitive folders,Me,,Not started,T05,,
+T07,2A Identity,Gather identity documents (certified if required),Me,,Not started,T01,01_Identity-Eligibility,
+T08,2A Identity,Name-change evidence if applicable,Me,,Not started,,01_Identity-Eligibility,
+T09,2A Identity,Order criminal history check (close to lodging),Me,,Not started,T03,01_Identity-Eligibility,Check validity window
+T10,2A Identity,Bankruptcy/insolvency and director searches,Me,,Not started,,01_Identity-Eligibility,
+T11,2A Identity,Draft disclosure statement,Me,,Not started,,01_Identity-Eligibility,
+T12,2B Qualifications,Collect certificates and transcripts,Me,,Not started,T03,02_Qualifications,
+T13,2B Qualifications,RPL/skills assessment if gap,Me,,Not started,T03,02_Qualifications,Long lead time
+T14,2C Projects,Select projects (recent senior domestic),Me,,Not started,T03,03_Experience-Evidence,
+T15,2C Projects,Project 1 evidence pack,Me,,Not started,T14,03_Experience-Evidence/P1,
+T16,2C Projects,Project 2 evidence pack,Me,,Not started,T14,03_Experience-Evidence/P2,
+T17,2C Projects,Project 3 evidence pack,Me,,Not started,T14,03_Experience-Evidence/P3,
+T18,2C Projects,Project 4 evidence pack (if required),Me,,Not started,T14,03_Experience-Evidence/P4,
+T19,2C Projects,Experience summary and employer letters,Me,,Not started,T14,03_Experience-Evidence,
+T20,2D Referee,Confirm referee eligibility rules,Me,,Not started,T01,04_Technical-Referee,
+T21,2D Referee,Shortlist and approach referee,Me,,Not started,T20,04_Technical-Referee,
+T22,2D Referee,Send project packs and brief,Me,,Not started,T15,04_Technical-Referee,
+T23,2D Referee,Receive and cross-check referee report,Me,,Not started,T22,04_Technical-Referee,
+T24,2E Insurance,Confirm DBI eligibility pathway,Me,,Not started,T01,05_Insurance-Financial,
+T25,2E Insurance,Gather financial evidence,Me,,Not started,T24,05_Insurance-Financial,
+T26,3 QA,Document register all Ready,Me,,Not started,T07;T12;T19;T23;T25,00_Admin-Tracker,
+T27,3 QA,Independent read-through,Reviewer,,Not started,T26,00_Admin-Tracker,
+T28,4 Lodge,Lodge application and pay,Me,,Not started,T27,07_Application-Submission,
+T29,4 Lodge,Weekly email check for BPC requests,Me,,Not started,T28,09_Correspondence,
+T30,5 Assessment,Book exam,Me,,Not started,T28,08_Exam-Assessment,
+T31,5 Assessment,Study plan and practice,Me,,Not started,T30,08_Exam-Assessment,Use study app
+T32,5 Assessment,Sit exam,Me,,Not started,T31,08_Exam-Assessment,
+T33,6 Decision,Registration issued and saved,Me,,Not started,T32,10_Post-Registration,
+T34,6 Decision,Arrange domestic building insurance,Me,,Not started,T33,10_Post-Registration,
+T35,7 Post,CPD log and renewal reminders,Me,,Not started,T33,10_Post-Registration,

@@ -1,0 +1,6 @@
+DB-U Registration - private evidence folder
+
+1. Keep this folder in OneDrive only. Never upload contents to the public GitHub repo.
+2. Put 01_Identity-Eligibility and 05_Insurance-Financial in OneDrive Personal Vault.
+3. Work from the checklist and document register in the GitHub repo (application/).
+4. Name files YYYY-MM-DD_Description_vN.
